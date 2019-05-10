@@ -10,28 +10,28 @@
 
 ## Spesifikasi Tugas
 1. Membuat _API_ yang dapat melakukan _encryption_ dan _decryption_ pada _text_
-2. [Jenis cipher yang dapat diimplementasikan](#penilaian)
-3. **TIDAK** harus semua cipher diimplementasikan
+2. [Jenis _cipher_ yang dapat diimplementasikan](#penilaian)
+3. **TIDAK** harus semua _cipher_ diimplementasikan
 4. [Daftar teknologi yang boleh digunakan](https://research.hackerrank.com/developer-skills/2019#skills)
 5. Tugas dikerjakan **individual**
 
 ## Langkah Pengerjaan
 1. _Fork repository_ ini
 2. Kerjakan tugas sesuai spesifikasi
-3. Berikan penjelasan atas tugas yang telah dibuat (silakan _overwrite_ README ini)
+3. Berikan penjelasan atas tugas yang telah dibuat (silakan _overwrite file_ README ini)
 4. Buat _pull request_
 
 ## Spesifikasi API
 Buatlah API dengan ketentuan:
 
-1. Sebuah _endpoint_ yang akan menerima _plaintext_, lalu mengubahnya menjadi _ciphertext_. Endpoint akan menerima **POST** _request_ dengan _payload_:
+1. Sebuah _endpoint_ yang akan menerima _plaintext_, lalu mengubahnya menjadi _ciphertext_. _Endpoint_ akan menerima **POST** _request_ dengan _payload_:
 ```JSON
 {
   "plaintext": "Insert plaintext here"
 }
 ```
 
-2. Sebuah _endpoint_ yang akan menerima _ciphertext_, lalu mengubahnya menjadi _plaintext_. Endpoint akan menerima **POST** _request_ dengan _payload_:
+2. Sebuah _endpoint_ yang akan menerima _ciphertext_, lalu mengubahnya menjadi _plaintext_. _Endpoint_ akan menerima **POST** _request_ dengan _payload_:
 ```JSON
 {
   "ciphertext": "Insert ciphertext here"
@@ -41,10 +41,10 @@ Buatlah API dengan ketentuan:
 3. API harus dapat diakses melalui internet
 
 ## Penilaian
-| Cipher | Nilai |
+| _Cipher_ | Nilai |
 | --- | --- |
-| Caesar Cipher | 100 |
-| Vigenère Cipher | 200 |
+| _Caesar Cipher_ | 100 |
+| _Vigenère Cipher_ | 200 |
 | _Coming soon_ | _TBD_ |
 | _Coming soon_ | _TBD_ |
 
