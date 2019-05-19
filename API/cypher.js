@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
-// router.get('/', (req, res, next) => {
-//     res.status(200).json({
-//         message : 'Handling GET request to cypher'
-//     });
-// });
+router.get('/', (req, res, next) => {
+    res.status(200).json({
+        message : 'Handling GET request to cypher'
+    });
+});
 
-router.get('/:cypher/:angka',(req,res,next) =>{
+router.post('/:cypher/:angka',(req,res,next) =>{
     var ciphertext = req.params.cypher;
     var angka = parseInt(req.params.angka);
     var result = "";
