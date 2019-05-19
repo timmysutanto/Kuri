@@ -7,7 +7,7 @@ router.get('/', (req, res, next) => {
     });
 });
 
-router.post('/:cypher/:angka',(req,res,next) =>{
+router.get('/:cypher/:angka',(req,res,next) =>{
     var ciphertext = req.params.cypher;
     var angka = parseInt(req.params.angka);
     var result = "";
